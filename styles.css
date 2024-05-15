@@ -1,0 +1,386 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    
+}
+
+
+h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+h2 {
+    font-size: 30px;
+    margin: 0;
+    margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav {
+    background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+    border-radius: 7px;
+    background-color: #85FFBD;
+    background-image: linear-gradient(90deg, #85FFBD 0%, #FFFB7D 100%);
+
+}
+
+#ide {
+    padding: 30px;
+}
+
+.recipe-box:nth-child(even) {
+    align-self: flex-end;
+}
+
+main {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+}
+
+#ida1 {
+    background-size: cover;
+    background-position: center;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.like-btn {
+    background-color: #FFD700;
+    border: none;
+    color: #000;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+
+
+.comment-section {
+    margin-top: 20px;
+}
+
+.comment {
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+
+#comment-input {
+    width: 70%;
+    padding: 5px;
+}
+
+button {
+    padding: 5px 10px;
+}
+
+
+
+
+
+.like-btn:hover {
+    background-color: #FFA500;
+}
+
+#ida3 {
+    background-size: cover;
+    background-position: center;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+#ida5 {
+    background-size: cover;
+    background-position: center;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.share-btn {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.share-btn:hover {
+    background-color: rgb(39, 147, 39);
+}
+
+
+#ida5:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    z-index: -1;
+}
+
+#ida5 h2 {
+    margin-top: 10px;
+}
+
+#ida6 {
+    background-size: cover;
+    background-position: center;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    height: 520px;
+}
+
+#ida6:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    z-index: -1;
+}
+
+#ida6 h2 {
+    margin-top: 10px;
+}
+
+
+#ida4 {
+    background-size: cover;
+    background-position: center;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    height: 520px;
+}
+
+#ida4:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    z-index: -1;
+}
+
+#ida4 h2 {
+    margin-top: 10px;
+}
+
+
+#ida3:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    z-index: -1;
+}
+
+#ida3 h2 {
+    margin-top: 10px;
+}
+
+
+#ida2 {
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+#ida2:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    z-index: -1;
+}
+
+#ida2 h2 {
+    margin-top: 10px;
+}
+
+#ida1:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    z-index: -1;
+}
+
+#ida1 h2 {
+    margin-top: 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+.recipe-box {
+
+    border: 5px solid #090909;
+    padding: 10px;
+    margin-bottom: 20px;
+    transition: transform 0.3s;
+    cursor: pointer;
+    max-width: 400px;
+    height: 520px;
+    border-radius: 8px;
+}
+
+.recipe-box:hover {
+    transform: scale(0.95);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.search-section {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin: left 100px;
+    align-self: flex-end;
+}
+
+#search {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 200px;
+}
+
+#searchBtn {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #555;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+#nav-links {
+    margin-right: auto;
+}
+
+
+#search {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+#searchBtn {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #555;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+.recipe-box img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.recipe-box h2 {
+    margin-top: 0;
+}
+
+.recipe-box p {
+    margin-bottom: 0;
+}
+
+.bottom2{
+    margin-top:20px;
+}
+
+#bottom5{
+    margin-top: 73px;
+}
